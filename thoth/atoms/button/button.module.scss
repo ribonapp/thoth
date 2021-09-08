@@ -1,0 +1,46 @@
+.button {
+  height: 56px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 12px 16px;
+  border: none;
+
+  &[data-buttonSize="large"] {
+    height: 64px;
+  }
+
+  &[data-buttonSize="small"] {
+    height: 42px;
+  }
+
+  &[data-buttonColor="ribon"] {
+    background-color: rgba(0, 205, 180, 1) !important;
+    color: rgba(0, 205, 180, 1);
+    border: 1px solid rgba(0, 205, 180, 1);
+  }
+
+  &[data-buttonColor="red"] {
+    background-color: rgba(239, 83, 80, 1) !important;
+    color: rgba(239, 83, 80, 1);
+    border: 1px solid rgba(239, 83, 80, 1);
+  }
+
+  &[data-buttonColor="gray"] {
+    background-color: rgba(130, 170, 190, 1) !important;
+    color: rgba(130, 170, 190, 1);
+    border: 1px solid rgba(130, 170, 190, 1);
+  }
+
+  &[data-buttonType="filled"] {
+    color: white !important;
+  }
+
+  &[data-buttonType="outlined"] {
+    background-color: white !important;
+  }
+
+  &[data-buttonType="textOnly"] {
+    border: none !important;
+    background-color: white !important;
+  }
+}
