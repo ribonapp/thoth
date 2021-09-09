@@ -1,9 +1,7 @@
 import React from "react";
 import { Button } from "./button";
 
-export const PrimaryButton = () => (
-  <Button buttonText="hello from primary Button" />
-);
+export const PrimaryButton = () => <Button buttonText="Button text" />;
 
 export const OutlineButton = () => (
   <Button

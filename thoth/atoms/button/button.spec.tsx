@@ -4,6 +4,6 @@ import { PrimaryButton } from "./button.composition";
 
 it("should render with the correct text", () => {
   const { getByText } = render(<PrimaryButton />);
-  const rendered = getByText("hello from primary Button");
+  const rendered = getByText("Button text");
   expect(rendered).toBeTruthy();
 });
